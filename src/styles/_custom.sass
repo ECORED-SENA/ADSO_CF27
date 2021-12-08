@@ -1,0 +1,73 @@
+.contenedor-total
+  position: relative
+  width: 100%
+  padding-bottom: 12rem
+
+.contenedor-text
+  position: absolute
+  bottom: 0%
+  left: 50%
+  transform: translateX(-50%) translateY(-50%)
+  width: 90%
+  height: auto
+  background-color: #4DD0E1
+  filter: drop-shadow(2px 4px 6px grey)
+  padding: 2rem
+  display: inline-block
+  align-items: center
+  justify-content: center
+
+
+.fondo-gradiente1
+  margin-inline: -3.4rem
+  background: linear-gradient(to bottom, transparent, #4dd0e131)
+  @media screen and ( max-width: 992px)
+    margin-inline: -1.4rem
+
+.fondo1
+  background: url('../assets/curso/tema1/fondo1.svg')
+  background-position: top
+  background-size: auto
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+
+.fondo2
+  background: url('../assets/curso/tema1/fondo2.svg')
+  background-position: top
+  background-size: auto
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+
+
+
+.code
+  background-color: #12263F
+  padding: 1rem
+  code
+    color: $color-acento-botones !important
+
+@media screen and ( max-width: 992px)
+  .contenedor-total
+    padding-bottom: 4rem
+  .contenedor-text
+    position: relative
+    bottom: 0%
+    left: 50%
+    transform: translateX(-50%) translateY(0%)
+    width: 90%
+    height: auto
+    background-color: #ffff
+    filter: drop-shadow(2px 4px 6px grey)
+    padding: 2rem
+    display: inline-block
+    align-items: center
+    text-align: center
+    justify-content: center
+    border-top-right-radius: 20px
+    border-bottom-left-radius: 20px

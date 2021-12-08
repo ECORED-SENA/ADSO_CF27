@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '<em>Tags</em>',
+            titulo: 'Etiquetas (<em>Tags</em>)',
             hash: 't_1_1',
           },
           {
