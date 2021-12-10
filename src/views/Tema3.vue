@@ -106,7 +106,8 @@
       .col-10.col-lg-10
         figure.mb-5
           img.m-auto(src='@/assets/curso/tema3/img8.png' alt='Imagen ambiental' style='')
-
+      
+      
     .row.justify-content-center.gx-0.mb-5
       .col-lg-7.mb-4.mb-lg-0(style="background-color: #039BE5")
         .p-5
@@ -123,16 +124,271 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       .h2 3.3 Sintaxis
 
+
+    .tarjeta.fondo-slider.p-4.mb-4
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center.pt-4
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-4 En Javascript existe un conjunto de elementos que permiten conformar un programa, variables, constantes, operadores, expresiones que corresponden a una forma de combinación de variables, constantes y operadores, sentencias encargadas de guardar un orden lógico y funciones como el conjunto de sentencias que permiten resolver un problema; para todos estos elementos existen una serie de reglas que se deben cumplir al momento de escribir el código así:
+            p.mb-0 Variables se definen como espacios de memoria reservada para almacenar algún dato y que se identifican con un nombre para definirlas, se debe utilizar la palabra var seguida del nombre el símbolo igual un valor finalizado con punto y coma.
+              
+              
+          .col-10.col-lg-5(style="background-color: #12263F; color: #039BE5;")
+            .p-5
+              p(style="color: #039BE5;") var nombreVariable = 20;
+              p(style="color: #039BE5;") var a = 5;
+              p(style="color: #039BE5;") var b = 3;
+              p.mb-0(style="color: #039BE5;") var multiplicar = a*b;
+              
+        .row.justify-content-center.align-items-center
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-0 Las constantes como su nombre lo indica sirven para definir valores únicos que se pueden utilizar en diferentes partes del programa se definen con la palabra con seguida del nombre de variable el símbolo igual y termina con punto y coma.
+              
+          .col-10.col-lg-5(style="background-color: #12263F; color: #039BE5;")
+            .p-5
+              p.text-center.mb-0(style="color: #039BE5;") cons gravedadTierra = 9.8;
+              
+        .row.justify-content-center.align-items-center.pt-lg-5
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-4 Los operadores se definen en tres grupos: operadores de asignación, operadores de relación y los operadores lógicos.
+            ul.lista-ul.mb-0
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Los operadores de asignación son igual =, suma +=, resta -=, multiplicación *=, división /= y módulo %.
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Los operadores de relación son mayor  &gt;, mayor igual  &gt;=, menor  &lt;, menor igual &lt;= , igual que == y diferente de !=
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Los operadores lógicos para evaluar verdadero o falso son AND && , OR || y NOT !.
+            .cajon.color-acento-botones.p-4
+              p.mb-0 Las sentencias se conforman como la combinación de constantes, variables y operadores:
+              
+          .col-10.col-lg-5(style="background-color: #12263F; color: #039BE5;")
+            .p-5
+              p(style="color: #039BE5;") var nombreVariable = 20;
+              p(style="color: #039BE5;") cons gravedadTierra = 9.8;
+              p.mb-0(style="color: #039BE5;") var resultado =  nombreVariable -  gravedadTierra;
+            
+        .row.justify-content-center.align-items-center
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-0 Las funciones permiten identificar con un nombre una acción dentro de un programa, es la combinación de sentencias, variables, constantes y expresiones se escribe utilizando la palabra function seguida de una lista de parámetros de entrada separados por comas encerrados entre paréntesis () en donde el conjunto de sentencias que operan esas entradas se encierran entre llaves {}.
+              
+          .col-10.col-lg-5(style="background-color: #12263F; color: #039BE5;")
+            .p-5
+              p.mb-0(style="color: #039BE5;") function sumarDatos(parametroUno, parametroDos, parametroTres) {
+              p.text-center.mb-0(style="color: #039BE5;") var a = parametroUno;
+              p.text-center.mb-0(style="color: #039BE5;") var b = parametroDos;
+              p.text-center.mb-0(style="color: #039BE5;") var c = parametroTres;
+              p.text-center.mb-0(style="color: #039BE5;") var resultadoSuma = a + b + c;
+              p.mb-0(style="color: #039BE5;") }
+              
+              
+    
+
+
+
+
+
     separador
     #t_3_4.titulo-segundo.color-acento-contenido
       .h2 3.4 Tipo de Datos
+
+    .contenedor-total
+      figure
+        img.mx-auto(src='@/assets/curso/tema3/img11.jpg' alt='Imagen ambiental' style='')
+      .contenedor-text
+        .row.mb-4.mb-lg-0
+          .col-auto.p-lg-4
+            p.mb-0 Con relación a los tipos de datos Java Script presenta una característica fundamental y es que cuenta con la capacidad de adaptarse al dato ingresado por el usuario; es decir, que el tipo de dato es dinámico cuando fue definido con la palabra de reserva variable.
+
+
+    .row.justify-content-center.align-items-center
+      .col-lg-6.mb-4.mb-lg-0
+        LineaTiempoD.color-primario
+          .row(numero="1" titulo="Variables Numéricas")
+            .col-md-12
+              p.mb-4 Se utilizan para definir variables enteras (integer), reales (float), hexadecimal(0x) y octal (0)
+              .p-5(style="background-color: #12263F; color: #039BE5;")
+                p.mb-0(style="color: #FFCA28;") var formatoEntero = 45;
+                p.mb-0(style="color: #FFCA28;") var formatoFlotante = 78.123;
+                p.mb-0(style="color: #FFCA28;") var formatoHexaDecimal = 0xF34;
+                p.mb-0(style="color: #FFCA28;") var formatoOctal = 0568;
+                
+                  
+          .row(numero="2" titulo="Variable de caracteres")
+            .col-md-12
+              p.mb-4 Permite almacenar cadenas de texto dentro de las comillas, para bajar un renglón en el texto se debe utilizar \n para agregar un tabulador \t para comillas simple \’ para comillas dobles \” y para barra inclinada \\.
+              .p-5(style="background-color: #12263F; color: #039BE5;")
+                p.mb-0(style="color: #FFCA28;") var nombreApellidos = "JUAN ESTEBAN GOMEZ\n";
+                p.mb-0(style="color: #FFCA28;") var mensaje = "Este es mi primer mensaje de bienvenida \t \'VALOR\'"
+                  
+          .row(numero="3" titulo="Variables tipo lógico")
+            .col-md-12
+              p.mb-4 Permiten definir variables booleanas falso o verdadero.
+              .p-5(style="background-color: #12263F; color: #039BE5;")
+                p.mb-0(style="color: #FFCA28;") var esCasada = true;
+                p.mb-0(style="color: #FFCA28;") var tieneHijo = talse;
+                
+          .row(numero="4" titulo="Variables tipo arreglo")
+            .col-md-12
+              p.mb-4 Denominados también como matrices o vectores y se usan para definir variables que se relacionan en un mismo conjunto se definen entre corchetes separados por coma y valores entre comillas.
+              .p-5(style="background-color: #12263F;")
+                p.mb-0(style="color: #FFCA28;") var diasSemana = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes","Sabado", "Domingo"];
+                  
+          .row(numero="5" titulo="Variables tipo Objeto")
+            .col-md-12
+              p.mb-4 son variables que a diferencias de los arreglos se define dentro de llaves con el nombre de propiedad y su valor.
+              .p-5(style="background-color: #12263F;")
+                p.mb-0(style="color: #FFCA28;") var miCarro = {
+                p.mb-0(style="color: #FFCA28;") &emsp; placa = 'X45-56',
+                p.mb-0(style="color: #FFCA28;") &emsp; modelo = 'X45-56',
+                p.mb-0(style="color: #FFCA28;") &emsp; marca = 'X45-56',
+                p.mb-0(style="color: #FFCA28;") &emsp;};
+                p.mb-0(style="color: #FFCA28;") alert("Esta es la placa de mi carro..." + miCarro.placa);
+                  
+      .col-8.col-lg-6
+        figure
+          img.mx-auto(src='@/assets/curso/tema3/img12.svg' alt='Imagen ambiental' style='width:440px')
+
+
 
     separador
     #t_3_5.titulo-segundo.color-acento-contenido
       .h2 3.5 Estructuras de control
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p.mb-4 Cuando se hace un programa en JavaScript las líneas de código se ejecutan de manera secuencial; es decir, primera, segunda, tercera, cuarta, etc., pero nunca cuarta y luego tercera, siempre se enumeran de arriba hacia abajo correspondiendo esto con el flujo del programa; durante este flujo en algún punto de las secuencia es necesario tomar una decisión y es ahí donde se be utilizar el concepto de condicionales con respuesta positiva o negativa, en otro punto del programa se necesitará realizar a recorridos a estructuras de datos; por ejemplo un arreglo y para ello utilizaremos el concepto de bucle.
+        .cajon.color-acento-botones.p-4
+          p.mb-0 Condicional if, el más conocido de los condicionales, si se cumple la condición continúa ese camino la condición y se escribe entre paréntesis después de la palabra reservada if.
+      .col-10.col-lg-6
+        figure
+          img.mx-auto(src='@/assets/curso/tema3/img13.jpg' alt='Imagen ambiental' style='width:600px')
+
+    .row.justify-content-center.align-items-center.mb-5.gx-0
+      .col-10.col-lg-5.py-lg-4(style="background-color: #12263F;")
+        .p-5
+          p(style="color: #FFCA28;") var edad = 17;
+          p.mb-0(style="color: #FFCA28;") //Condicional para saber si es mayor de edad
+          p.mb-0(style="color: #FFCA28;") if(edad &lt; 18 ){
+          p.mb-0(style="color: #FFCA28;") &emsp;  alert(“Ya puede solicitar la cédula”);
+          p.mb-0(style="color: #FFCA28;") }
+      .col-10.col-lg-5(style="background-color: #f6f6f6;")
+        figure
+          img.mx-auto(src='@/assets/curso/tema3/img14.svg' alt='Imagen ambiental' style='width:500px')
 
 
+    .tarjeta.tarjeta.tarjeta--azul.p-4.mb-5
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center.pt-4
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-0 
+              b Condicional if/else, 
+              b-none este condicional indica el camino alterno que puede seguir el programa en el caso de que no se cumpla la condición palabra reservada else.
+            
+          .col-10.col-lg-5.mb-4.mb-md-0
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img15.svg' alt='Imagen que acompaña' style='')
+                
+        .row.justify-content-center.align-items-center.pt-4
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-0 
+              b Operador ternario, 
+              b-none es una forma de escribir el condicional if/else pero de una manera más corta se identifica con el símbolo ?
+            
+          .col-10.col-lg-5.mb-4.mb-md-0
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img16.svg' alt='Imagen que acompaña' style='')
+            
+        .row.justify-content-center.align-items-center.pt-4
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-0 
+              b Condicional if múltiple, 
+              b-none sirve para evaluar múltiples condiciones conservando la estructura del condicional if y para el caso alternativo se escribe la palabra reservada if else acompaña de la nueva condición a cumplir.
+            
+          .col-10.col-lg-5.mb-4.mb-md-0
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img17.svg' alt='Imagen que acompaña' style='')
+                
+                
+        .row.justify-content-center.align-items-center.pt-4
+          .col-11.col-lg-5.mb-4.mb-md-0
+            p.mb-0 
+              b Condicional switch, 
+              b-none define casos específicos a realizar en el caso de que la variable expuesta como condición sea igual a los valores que se especifican mediante los case.
+            
+          .col-10.col-lg-5.mb-4.mb-md-0
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img18.svg' alt='Imagen que acompaña' style='')
+                
+                
+    .row.justify-content-center.align-items-center.mb-5.gx-0
+      .col-10.col-lg-5(style="background-color: #f6f6f6;")
+        figure
+          img.mx-auto(src='@/assets/curso/tema3/img19.svg' alt='Imagen ambiental' style='width:500px')
+          
+      .col-10.col-lg-5.py-lg-1(style="background-color: #1565C0;")
+        .p-5
+          p.mb-0.text-white Bucles e Iteraciones, útiles para programar tareas que se convierten en repetitivas en donde se involucran gran cantidad de volumen de datos permitiendo su automatización, para realizar un buche es necesario tener en cuenta los siguiente conceptos: la condición tal como lo vimos en los if, esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona un vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador esto es necesario evitarlo.
+        
+
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.tarjeta--azul.p-4(titulo="Bucle While")
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-4.mb-lg-0
+            h4.mb-4 Bucle While 
+            ul.lista-ul.mb-0
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Antes de entrar en el bucle while, se inicializa la variable i a.
+                  
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Antes de realizar la primera iteración del bucle, se comprueba la condición.
+                  
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Si la condición es verdadera, se hace lo que está dentro del bucle.
+                  
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Se muestra por pantalla el valor de i y luego incrementamos el valor actual de i en 1.
+                  
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Se vuelve al inicio del bucle para hacer una nueva iteración. Se comprueba de nuevo la condición del bucle.
+                  
+              li 
+                i.fas.fa-layer-group(style="color: #039BE5;")
+                p.mb-0 Cuando la condición sea falsa, se sale del bucle y continúa el programa.
+                  
+          .col-10.col-lg-5
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img20.svg' alt='Imagen ambiental' style='width:315px')
+                
+      .tarjeta.tarjeta--azul.p-4(titulo="Bucle for")
+        .row.justify-content-center
+          .col-10.col-lg-5
+            h4 Bucle for
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img21.svg' alt='Imagen ambiental' style='width:315px')
+          .col-lg-6.mb-4.mb-lg-0
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img23.svg' alt='Imagen ambiental' style='width:423px')
+            
+                
+      .tarjeta.tarjeta--azul.p-4(titulo="Bucle en Arreglos")
+        .row.justify-content-center
+          .col-10.col-lg-5
+            h4 Incremento múltiple 
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img22.svg' alt='Imagen ambiental' style='width:315px')
+          .col-lg-6.mb-4.mb-lg-0
+            figure
+              img.mx-auto(src='@/assets/curso/tema3/img24.svg' alt='Imagen ambiental' style='width:392px')
+            
+                
 
 
 
