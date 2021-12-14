@@ -100,7 +100,7 @@
           
         .row.justify-content-center.align-items-center
           .col-11.col-lg-5.mb-4.mb-lg-0
-            p.mb-0 Ejemplo de selector por <em>id</em> en donde solo se aplica un elemento único. Aqui el nombre del estilo va precedido por el carácter #.
+            p.mb-0 Ejemplo de selector por <em>id</em> en donde solo se aplica un elemento único. Aquí el nombre del estilo va precedido por el carácter #.
           .col-10.col-lg-5
             figure
               img(src='@/assets/curso/tema2/img5.png', alt='imagen que acompaña', style="width: 500px;").m-auto

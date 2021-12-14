@@ -245,7 +245,7 @@
           span.etiqueta(style="color: #12263f") La etiqueta que representa un formulario se denomina &lt;form&gt; y debe ser acompañada como mínimo del atributo <em>action</em>, 
           b-none que permite llegar al sitio destino que va a recibir los datos y el método que puede recibir los datos, bien sea <em>post</em> o <em>get</em>.
           
-        p.mb-0 A continuación, se describen algunos <em>tags</em> que comúnmente conforman un formulario estos se deben encerrar dentro de la etiqueta principal del formulario &lt;form&gt;:
+        p.mb-0 A continuación, se describen algunos <em>tags</em> que comúnmente conforman un formulario, estos se deben encerrar dentro de la etiqueta principal del formulario &lt;form&gt;:
           
       .col-lg-6
         figure.mb-4.mb-lg-0(data-aos="zoom-in")

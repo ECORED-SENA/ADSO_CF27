@@ -93,7 +93,7 @@
 
 
 
-    p.mb-4 Ejemplo de inclusión de código desde archivos con extensión .js en url diferentes a la de la página:
+    p.mb-4 Ejemplo de inclusión de código desde archivos con extensión .js en URL diferente a la de la página:
 
     .row.justify-content-center
       .col-10.col-lg-10
@@ -148,7 +148,7 @@
               
         .row.justify-content-center.align-items-center
           .col-11.col-lg-5.mb-4.mb-md-0
-            p.mb-0 Las constantes, como su nombre lo indica, sirven para definir valores únicos que se pueden utilizar en diferentes partes del programa; se definen con la palabra const seguida del nombre de variable, el símbolo igual y termina con punto y coma.
+            p.mb-0 Las constantes, como su nombre lo indica, sirven para definir valores únicos que se pueden utilizar en diferentes partes del programa; se definen con la palabra "const" seguida del nombre de variable, el símbolo igual y termina con punto y coma.
               
           .col-10.col-lg-5(style="background-color: #12263F; color: #039BE5;")
             .p-5
@@ -216,7 +216,7 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Variables numéricas")
             .col-md-12
-              p.mb-4 Se utilizan para definir variables enteras (<em>integer</em>), reales (<em>float</em>), hexadecimal(0x) y octal (0).
+              p.mb-4 Se utilizan para definir variables enteras (<em>integer</em>), reales (<em>float</em>), hexadecimal (0x) y octal (0).
               .p-5(style="background-color: #12263F; color: #039BE5;")
                 p.mb-0(style="color: #FFCA28;") var formatoEntero = 45;
                 p.mb-0(style="color: #FFCA28;") var formatoFlotante = 78.123;
@@ -341,7 +341,7 @@
         .p-5
           p.mb-0.text-white 
             b Bucles e iteraciones, 
-            b.none útiles para programar tareas que se convierten en repetitivas en donde se involucra gran cantidad de volumen de datos permitiendo su automatización, para realizar un bucle es necesario tener en cuenta los siguiente conceptos: la condición tal como lo vimos en los <em>if</em>, esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona una vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador, esto es necesario evitarlo.
+            b-none útiles para programar tareas que se convierten en repetitivas en donde se involucra gran cantidad de volumen de datos permitiendo su automatización, para realizar un bucle es necesario tener en cuenta los siguiente conceptos: la condición tal como lo vimos en los <em>if</em>, esta se evalúa repetidamente, la iteración es la cantidad de repeticiones que ejecutó la condición, el contador es la variable que guarda en memoria el número en el cual va la repetición, el incremento es el número que se adiciona una vez se termine un ciclo y bucle infinito cuando no se realiza el incremento al contador, esto es necesario evitarlo.
         
 
     TabsA.color-acento-contenido.mb-5

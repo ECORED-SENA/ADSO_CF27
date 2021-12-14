@@ -10,7 +10,7 @@
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Conceptos base diseño de interfaces web
+          h2 Conceptos de diseño de interfaces web
         p.mb-4 Con la intención de identificar conceptos abordados durante la experiencia de aprendizaje seleccione la respuesta correcta según el enunciado.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            

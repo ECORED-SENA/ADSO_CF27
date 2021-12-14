@@ -252,7 +252,7 @@ export default {
     },
     {
       referencia:
-        'Mora, S. L. (2021). HTML5 y CSS3: &lt;6&gt; HTML5 – Formularios.&lt;/6&gt;',
+        'Mora, S. L. (2021). HTML5 y CSS3: &lt;6&gt; HTML5 – Formularios&lt;/6&gt;.',
       link:
         'http://desarrolloweb.dlsi.ua.es/cursos/2011/html5-css3-es/html5-formularios',
     },
@@ -285,7 +285,7 @@ export default {
     },
     {
       termino: 'LAN',
-      significado: 'Red de área local',
+      significado: 'Red de área local.',
     },
     {
       termino: '<em>Landing Page</em>',
@@ -363,6 +363,12 @@ export default {
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
         nombre: 'Sandra Patricia Hoyos Sepúlveda',
         cargo: 'Revisión y corrección de estilo',
         centro:
@@ -423,7 +429,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Andrés Mauricio Santaella',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
