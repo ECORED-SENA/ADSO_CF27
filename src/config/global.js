@@ -23,13 +23,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Html 5',
+        titulo: 'HTML 5',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Etiquetas (<em>Tags</em>)',
+            titulo: 'Etiquetas (<em>tags</em>)',
             hash: 't_1_1',
           },
           {
@@ -68,7 +68,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Hojas de Estilo',
+        titulo: 'Hojas de estilo',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -125,7 +125,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Tipo de Datos',
+            titulo: 'Tipos de datos',
             hash: 't_3_4',
           },
           {
@@ -140,7 +140,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Gestores de Contenido',
+        titulo: 'Gestores de contenido CMS',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -179,7 +179,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -218,41 +218,41 @@ export default {
   referencias: [
     {
       referencia:
-        'Acibeiro. M. (2021). Qué es un gestor de contenidos y para qué se utiliza. ',
+        'Acibeiro. M. (2021). Qué es un gestor de contenidos y cuál es el mejor para crear una web.',
       link: 'https://www.lucushost.com/blog/gestor-de-contenidos/',
     },
     {
-      referencia: 'Beati. H. (2016). HTML5 y CSS3.',
+      referencia: 'Beati, H. (2016). HTML5 y CSS3.',
     },
     {
-      referencia: 'Cuervo. P. V. (2019). 10 Características de un CMS.',
+      referencia: 'Cuervo, P. V. (2019). 10 Características de un CMS.',
       link: 'https://www.arquitectoit.com/cms/10-caracteristicas-cms/',
     },
     {
       referencia:
-        'Gutierrez. R. (2018). <em>Understanding the role of digital commons in the web; The making of </em>HTML5.',
+        'Gutierrez, R. (2018). <em>Understanding the role of digital commons in the web; The making of </em>HTML5.',
     },
     {
       referencia:
-        'Hverbeke. M. (2018). <em>Eloquent JavaScript: A Modern Introduction to Programming.</em>',
+        'Hverbeke, M. (2018). <em>Eloquent JavaScript: A Modern Introduction to Programming.</em>',
     },
     {
       referencia: 'Java desde 0. (2020). Introducción a JavaScript.',
       link: 'https://javadesde0.com/introduccion-a-javascript/',
     },
     {
-      referencia:
-        'JavaScript en español. (2021). <em>Bucles e iteraciones.</em>',
+      referencia: 'Lenguaje JS. (2021). Bucles e iteraciones.',
       link: 'https://lenguajejs.com/javascript/introduccion/bucles/',
     },
     {
       referencia:
-        'Mooc,Aprendizaje Online.(2015). Clasificación de los sistemas de gestión de contenidos.',
+        'Mooc, Aprendizaje Online.(2015). Clasificación de los sistemas de gestión de contenidos.',
       link:
         'https://mooccontenidosweb.wordpress.com/2015/05/01/clasificacion-de-los-sistemas-de-gestion-de-contenidos/',
     },
     {
-      referencia: 'Mora. S. L (2021). HTML5 y CSS3: 6 HTML5 – Formularios.',
+      referencia:
+        'Mora, S. L. (2021). HTML5 y CSS3: &lt;6&gt; HTML5 – Formularios.&lt;/6&gt;',
       link:
         'http://desarrolloweb.dlsi.ua.es/cursos/2011/html5-css3-es/html5-formularios',
     },
@@ -264,7 +264,7 @@ export default {
     },
     {
       termino: 'CSS3',
-      significado: ' hojas de estilo en cascada versión 3',
+      significado: ' hojas de estilo en cascada versión 3.',
     },
     {
       termino: 'ES6',
@@ -280,7 +280,7 @@ export default {
       significado: 'método de envío de datos por URL <em>web</em>.',
     },
     {
-      termino: 'Javascript',
+      termino: 'JavaScript',
       significado: 'lenguaje de programación.',
     },
     {
@@ -304,7 +304,7 @@ export default {
       significado: 'es un servidor de aplicaciones.',
     },
     {
-      termino: 'Plugin',
+      termino: '<em>Plugin</em>',
       significado:
         'aplicación que extiende las funcionalidades de un componente.',
     },
@@ -325,7 +325,7 @@ export default {
   complementario: [
     {
       texto:
-        'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertido',
+        'HTMLed.it. (2021). Editor HTML gratuito en línea, limpiador y convertidor.',
       tipo: 'Página web',
       link: 'https://htmled.it/or/',
     },
@@ -350,6 +350,24 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Carlos Hernán Muñoz Carvajal',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Deivis Eduard Ramírez Martínez',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -370,6 +388,35 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
         nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo front-end',
         centro:
@@ -381,18 +428,12 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      /*{
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
       {
-        nombre: '',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {

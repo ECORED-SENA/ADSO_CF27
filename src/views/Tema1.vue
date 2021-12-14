@@ -18,7 +18,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        p.mb-4 Al conjunto de característica de cada etiqueta y sus diferentes funcionalidades que han evolucionado en el tiempo se le llama html, que a fecha de hoy ya va en la versión 5 y es regulado por el consorcio internacional W3C
+        p.mb-4 Al conjunto de característica de cada etiqueta y sus diferentes funcionalidades que han evolucionado en el tiempo se le llama HTML, que a fecha de hoy ya va en la versión 5 y es regulado por el consorcio internacional W3C
         .cajon.color-acento-contenido.p-4
           p.mb-0 El Consorcio WWW, en inglés: <em>World Wide Web Consortium (W3C)</em> es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la <em>World Wide Web</em> a largo plazo.
             
@@ -28,7 +28,7 @@
 
 
     #t_1_1.titulo-segundo.color-acento-contenido
-      .h2 1.1 Etiquetas (TAGS) 
+      .h2 1.1 Etiquetas (<em>tags</em>) 
     
 
 
@@ -38,22 +38,22 @@
       .contenedor-text
         .row.mb-4.mb-lg-0
           .col-auto
-            p.mb-0 Representan el conjunto de funcionalidades que se puede implementar en una página web y cuentan con una sintaxis de escritura; es decir, una forma correcta en que se debe escribir y que debe cumplir con unos atributos y una interdependencia entre ellas. Es por esto que existen algunas etiquetas que para su funcionamiento dependen de otras estas etiquetas, lo que se conoce como etiquetas padres. Veamos un ejemplo mostrando lo relacionado con las etiquetas padres mínimas:
+            p.mb-0 Representan el conjunto de funcionalidades que se puede implementar en una página web y cuentan con una sintaxis de escritura; es decir, una forma correcta en que se debe escribir y que debe cumplir con unos atributos y una interdependencia entre ellas. Es por esto que existen algunas etiquetas que para su funcionamiento dependen de otras, lo que se conoce como etiquetas padres. Veamos un ejemplo mostrando lo relacionado con las etiquetas padres mínimas:
 
     .row.fondo-gradiente1.mb-5
       .col-lg-12.px-md-5.pt-5
         .row.justify-content-center.mb-5
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-4 Las etiquetas padre mínimas con las que debe cumplir un archivo .html son las siguientes:
+            p.mb-4 Las etiquetas padre mínimas con las que debe cumplir un archivo .HTML son las siguientes:
             p.mb-4
               b &lt;HTML&gt; 
-              b-none Indica el inicio del documento y que el documento está escrito en el lenguaje html.
+              b-none Indica el inicio del documento y que el documento está escrito en el lenguaje HTML.
             p.mb-4
               b &lt;HEAD&gt; 
               b-none Es el encabezado de la página y esta información va orientada al <em>browser</em>.
             p.mb-4
               b &lt;/HEAD&gt; 
-              b-none  Indica el fin de la etiqueta head ambas etiquetas deben quedar dentro de la etiqueta padre html.
+              b-none  Indica el fin de la etiqueta <em>head</em> ambas etiquetas deben quedar dentro de la etiqueta padre HTML.
             p.mb-4
               b &lt;BODY&gt; 
               b-none Representa el cuerpo del contenido de la información que va a visualizar el usuario.
@@ -62,7 +62,7 @@
               b-none Indica el fin del cuerpo.
             p.mb-0
               b &lt;/HTML&gt; 
-              b-none Indica el final del documento html.
+              b-none Indica el final del documento HTML.
                   
           .col-lg-5 
             figure
@@ -77,7 +77,7 @@
         
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-4 La inclusión de texto en una página web nace de la necesidad de presentar información a los visitantes, todo el texto que se incluya se debe presentar dentro de los tags padres antes descritos, dentro de ese orden de ideas, la recomendación es ordenar estos textos a manera de párrafos que vienen dado por la utilización de la etiqueta &lt;p&gt; y a continuación el texto que se quiere incluir y se cierra con la respectiva etiqueta de cierre&lt;/p&gt;. En función de lo planteado, se puede considerar que el conjunto de párrafos comprende todo el documento y los respectivos saltos de línea dentro de un texto viene dado por la etiqueta &lt;br/&gt;.
+            p.mb-4 La inclusión de texto en una página web nace de la necesidad de presentar información a los visitantes, todo el texto que se incluya se debe presentar dentro de los <em>tags</em> padres antes descritos, en ese orden de ideas, la recomendación es ordenar estos textos a manera de párrafos que vienen dados por la utilización de la etiqueta &lt;p&gt; y a continuación el texto que se quiere incluir y se cierra con la respectiva etiqueta de cierre&lt;/p&gt;. En función de lo planteado, se puede considerar que el conjunto de párrafos comprende todo el documento y los respectivos saltos de línea dentro de un texto viene dado por la etiqueta &lt;br/&gt;.
             p.mb-4 Otros elementos importantes para enriquecer un texto son los siguientes:
             .p-4(style="background-color: #D2EDEA;")
               p.mb-4 
@@ -85,10 +85,10 @@
                 b-none Párrafo que en sí mismo corresponde a una cita de reseña.
               p.mb-4 
                 b &lt;q/&gt; 
-                b-none Cita contenido dentro de un texto.
+                b-none Cita contenida dentro de un texto.
               p.mb-4 
                 b &lt;em/&gt; 
-                b-none Enfatizando el texto de un párrafo.
+                b-none Enfatiza el texto de un párrafo.
               p.mb-4 
                 b &lt;strong/&gt; 
                 b-none Resaltado de texto.
@@ -127,8 +127,8 @@
       .h2 1.3 Imágenes
 
     .row.mb-5
-      p.mb-4 Para anexar una imagen a un documento html se usa la etiqueta &lt;img&gt; acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png entre otros formatos.
-      span.mb-0.etiqueta(style="background-color: #B2E8EF; color: #12263f ") Otros atributos importantes para la etiqueta &lt;img&gt; son width y height que sirven para definir el ancho y el alto de la imagen dentro de la página web.
+      p.mb-4 Para anexar una imagen a un documento HTML se usa la etiqueta &lt;img&gt; acompañada del atributo src que corresponde a la ubicación en donde se encuentra la imagen, bien sea en formato *.jpeg, *.gif, *.png, entre otros formatos.
+      span.mb-0.etiqueta(style="background-color: #B2E8EF; color: #12263f ") Otros atributos importantes para la etiqueta &lt;img&gt; son <em>width</em> y <em>height</em> que sirven para definir el ancho y el alto de la imagen dentro de la página web.
     
     
 
@@ -150,10 +150,10 @@
       .col-lg-6
         .p-5(style="background-color: #f6f6f6")
           p.mb-4 Es la funcionalidad que permite navegar entre diferentes páginas web; es decir, 
-            span.etiqueta(style="color: #12263f") poder viajar entre páginas web en donde su contenido html se ha almacenado en archivos con nombre diferentes .
-            b-none incluso en carpetas diferentes también se puede navegar hacia otras páginas web ya publicadas en la red internet.
+            span.etiqueta(style="color: #12263f") poder viajar entre páginas web en donde su contenido HTML se ha almacenado en archivos con nombre diferentes,
+            b-none incluso en carpetas diferentes, también se puede navegar hacia otras páginas web ya publicadas en la red internet.
             
-          p.mb-0 Para lograr un hiperenlace se debe utilizar la etiqueta &lt;a&gt; acompañada del atributo href=”” que indica el destino hacia la página a la que se quiere llegar y dentro de la etiqueta el texto que describe el sitio destino.
+          p.mb-0 Para lograr un hiperenlace se debe utilizar la etiqueta &lt;a&gt; acompañada del atributo href="" que indica el destino hacia la página a la que se quiere llegar y dentro de la etiqueta el texto que describe el sitio destino.
           
       .col-lg-6
         figure.mb-0(data-aos="zoom-in")
@@ -185,7 +185,9 @@
         p.mb-4 Las tablas son los componentes apropiados para organizar el contenido dentro de una página web en forma de matriz; es decir, con filas y columnas.
         p.mb-4 Para definir una tabla se debe usar la etiqueta &lt;table&gt; acto seguido se debe definir la cantidad de filas dentro de la tabla con la etiqueta &lt;tr&gt; y a su vez se debe definir dentro de la etiqueta &lt;td&gt; el número de columnas que se quieren manejar para presentar la información, al final cada ítem fila-columna se convierte en una celda de información.
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Ejemplo: el siguiente código define una tabla de datos con 2 filas y tres columnas, el contenido de cada celda puede variar bien sea en su texto, hiperenlaces, imágenes u otros elementos.
+          p.mb-0 
+            b Ejemplo: 
+            b-none el siguiente código define una tabla de datos con 2 filas y tres columnas, el contenido de cada celda puede variar bien sea en su texto, hiperenlaces, imágenes u otros elementos.
           
 
 
@@ -209,7 +211,7 @@
               .row
                 .col-12
                   figure.mb-4
-                    img.m-auto(src='@/assets/curso/tema1/img12.png' alt='Imagen ambiental' style='')
+                    img.m-auto(src='@/assets/curso/tema1/tablas.png' alt='Imagen ambiental' style='')
           
         .row.justify-content-center.mb-5
           .col-lg-10
@@ -227,7 +229,7 @@
           .col-lg-6
             p.mb-4 Ejemplo de tabla usando div:
             .code
-                code  &lt;div class="tabla"&gt; <br>&emsp;&emsp; &lt;div&gt; Cabecera con el logo de la página “header” &lt;/div&gt; <br>&emsp;&emsp; &lt;div&gt; <br>&emsp;&emsp;&emsp; &lt;div class="columna1"&gt; columna1 &lt;/div&gt;  <br>&emsp;&emsp;&emsp; &lt;div class="columna2"&gt; columna2 &lt;/div&gt;  <br>&emsp;&emsp;&emsp; &lt;div class="columna3"&gt; columna3 &lt;/div&gt;   <br>&emsp;&emsp; &lt;/div&gt;  <br>&emsp;&emsp; &lt;div&gt; Pie de pagina &lt;/div&gt; <br> &lt;/div&gt; 
+                code  &lt;div class="tabla"&gt; <br>&emsp;&emsp; &lt;div&gt; Cabecera con el logo de la página “header” &lt;/div&gt; <br>&emsp;&emsp; &lt;div&gt; <br>&emsp;&emsp;&emsp; &lt;div class="columna1"&gt; Columna1 &lt;/div&gt;  <br>&emsp;&emsp;&emsp; &lt;div class="columna2"&gt; Columna2 &lt;/div&gt;  <br>&emsp;&emsp;&emsp; &lt;div class="columna3"&gt; Columna3 &lt;/div&gt;   <br>&emsp;&emsp; &lt;/div&gt;  <br>&emsp;&emsp; &lt;div&gt; Pie de página &lt;/div&gt; <br> &lt;/div&gt; 
 
     
     
@@ -238,12 +240,12 @@
 
     .row.justify-content-center.mb-5.mb-lg-4
       .col-lg-6.mb-4.mb-lg-0
-        p.mb-4 Los formularios son componentes html que permiten la interacción para intercambio de información con usuarios externos, estos se caracterizan por agrupar a su vez a un conjunto de elementos interactivos en donde se pueden ingresar datos de tipo numérico, alfanumérico, carácter, listas de datos entre otros este ingreso y su construcción se pueden elaborar tanto de manera dinámica como estática.
+        p.mb-4 Los formularios son componentes HTML que permiten la interacción para intercambio de información con usuarios externos, estos se caracterizan por agrupar a su vez a un conjunto de elementos interactivos en donde se pueden ingresar datos de tipo numérico, alfanumérico, carácter, listas de datos, entre otros. Este ingreso y su construcción se pueden elaborar tanto de manera dinámica como estática.
         p.mb-4 
-          span.etiqueta(style="color: #12263f") La etiqueta que representa un formulario se denomina &lt;form&gt; y debe ser acompañado como mínimo del atributo <em>action</em>, 
-          b-none que permite llegar al sitio destino que va a recibir los datos y método que permite definir el tipo de método que puede recibir los datos bien sea <em>post</em> o <em>get</em>.
+          span.etiqueta(style="color: #12263f") La etiqueta que representa un formulario se denomina &lt;form&gt; y debe ser acompañada como mínimo del atributo <em>action</em>, 
+          b-none que permite llegar al sitio destino que va a recibir los datos y el método que puede recibir los datos, bien sea <em>post</em> o <em>get</em>.
           
-        p.mb-0 A continuación, se describen algunos Tags que comúnmente conforman un formulario estos se deben encerrar dentro la etiqueta principal del formulario &lt;form&gt;:
+        p.mb-0 A continuación, se describen algunos <em>tags</em> que comúnmente conforman un formulario estos se deben encerrar dentro de la etiqueta principal del formulario &lt;form&gt;:
           
       .col-lg-6
         figure.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -253,17 +255,17 @@
     .row.mb-5.fondo2
       .col-lg-12.px-md-5.pt-5
         .row.justify-content-center
-          .col-lg-5.mb-4.mb-lg-0
-            .p-5(style="border-radius: 20px; background-color: #ffff;  box-shadow: 0 3px 5px 0 rgb(17 30 97 / 30%);")
+          .col-10.col-lg-6.col-xl-5.mb-4.mb-lg-0
+            .tarjeta.p-5.dimension-card(style="border-radius: 20px; background-color: #ffff;  box-shadow: 0 3px 5px 0 rgb(17 30 97 / 30%);")
               .row.justify-content-center.mb-0
                 .col-auto
                   figure.mb-4
                     img.m-auto(src='@/assets/curso/tema1/icon1.svg' alt='Imagen ambiental' style='width: 80px;')
                 p.mb-0
                   b &lt;input&gt; 
-                  b-none Entrada de datos estas pueden ser texto, número o alfanumérico; sus atributos más importantes son <em>type</em> para definir el tipo de entrada que puede ser <em>text,radio,submit,reset,</em> el atributo id permite identificar de manera única el objeto en el archivo html, el atributo name es para darle un nombre a la entrada o variable y value para recibir el dato del componente.
-          .col-lg-5
-            .p-5(style="border-radius: 20px; background-color: #ffff;  box-shadow: 0 3px 5px 0 rgb(17 30 97 / 30%);")
+                  b-none Entrada de datos: estas pueden ser texto, número o alfanumérico; sus atributos más importantes son <em>type</em> para definir el tipo de entrada que puede ser <em>text, radio, submit, reset,</em> el atributo <em>id</em> permite identificar de manera única el objeto en el archivo HTML, el atributo <em>name</em> es para darle un nombre a la entrada o variable y <em>value</em> para recibir el dato del componente.
+          .col-10.col-lg-6.col-xl-5.mb-4.mb-lg-0
+            .tarjeta.p-5.dimension-card(style="border-radius: 20px; background-color: #ffff;  box-shadow: 0 3px 5px 0 rgb(17 30 97 / 30%);")
               .row.justify-content-center.mb-0
                 .col-auto
                   figure.mb-4
@@ -283,16 +285,16 @@
 
     .row.justify-content-center
       .col-4.col-lg-2
-        a.boton.color-secundario.indicador__container(@click="modal2 = true")(style="border-radius: 100px; background: linear-gradient(to bottom, #039BE5, #027FBC);")
+        a.boton.color-secundario.indicador__container(@click="modal3 = true")(style="border-radius: 100px; background: linear-gradient(to bottom, #039BE5, #027FBC);")
           span.text-center 
             b.text-white Ejecutar en el navegador
           .indicador--click(v-if="mostrarIndicador")
             
-    ModalA(:abrir-modal.sync="modal2")
-      .row
-        .col-12
+    ModalA(:abrir-modal.sync="modal3")
+      .row.justify-content-center
+        .col-10
           figure.mb-4
-            img.m-auto(src='@/assets/curso/tema1/img16.png' alt='Imagen ambiental' style='')
+            img.m-auto(src='@/assets/curso/tema1/formu-simple.png' alt='Imagen ambiental' style='width: 600px;')
           
 
 
@@ -309,6 +311,7 @@ export default {
     mostrarIndicador: true,
     modal1: false,
     modal2: false,
+    modal3: false,
   }),
   mounted() {
     this.$nextTick(() => {

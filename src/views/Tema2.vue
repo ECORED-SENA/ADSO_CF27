@@ -6,13 +6,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Hojas de Estilo
+      h1 Hojas de estilo
     
 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
-        p.mb-4 Las hojas de estilo son el mecanismo mediante el cual se otorga a una página <em>web</em> su apariencia, para esto se crea un archivo nuevo con extensión .css que hace referencia a un tipo de archivo denominado CSS (Style Sheet Cascade) hojas de estilo en cascada. Estas hojas de estilo se escriben en un código que está compuesto por tags con sus atributos y los valores que adquieren estos atributos. La característica principal es que este código puede ser reutilizado sobre las páginas <em>web</em> en donde suelen repetirse las implementaciones de las mismas etiquetas; las hojas contribuyen a la facilidad de mantenimiento y control de varias páginas incluso de todo un sitio <em>web</em>.
+        p.mb-4 Las hojas de estilo son el mecanismo mediante el cual se otorga a una página web su apariencia, para esto se crea un archivo nuevo con extensión .css que hace referencia a un tipo de archivo denominado CSS (<em>Style Sheet Cascade</em>) hojas de estilo en cascada. Estas hojas de estilo se escriben en un código que está compuesto por <em>tags</em> con sus atributos y los valores que adquieren estos atributos. La característica principal es que este código puede ser reutilizado sobre las páginas web en donde suelen repetirse las implementaciones de las mismas etiquetas; las hojas contribuyen a la facilidad de mantenimiento y control de varias páginas, incluso de todo un sitio web.
         .p-4(style="background-color: #4DD0E1;")
           p.mb-0 En la siguiente imagen se presenta el esquema general en que se puede utilizar código CSS en una página web:
       .col-10.col-lg-6
@@ -45,7 +45,7 @@
                 img(src='@/assets/curso/tema2/icon1.svg', alt='imagen ambiental', style="width: 140px;").m-auto
           p.mb-4
             b Separación de estructura del documento, 
-            b-none se refiere a la separación del contenido del documento html independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros)
+            b-none se refiere a la separación del contenido del documento HTML independiente de su presentación (tipos de letras, colores, tamaños de letras, espacios, fondos de pantalla, anexo de imágenes, entre otros).
               
       .col-10.col-sm-10.col-lg-5.mb-4.mb-lg-0
         .tarjeta.p-5(data-aos="zoom-in" style=" background-color: #4DC1FA;")
@@ -55,7 +55,7 @@
                 img(src='@/assets/curso/tema2/icon1.svg', alt='imagen ambiental', style="width: 140px;").m-auto
           p.mb-0
             b Hojas de estilo según su manejo, 
-            b-none pueden ser internas, externas o desde sitio web. Cuando es interna el código del estilo va incluido dentro de la página al ser externa se define en un archivo diferente a la a página con extensión CSS y si es desde otro sitio web se hace referencia por medio de su URL.
+            b-none pueden ser internas, externas o desde sitio web. Cuando es interna el código del estilo va incluido dentro de la página; al ser externa se define en un archivo diferente a la a página con extensión CSS y si es desde otro sitio web se hace referencia por medio de su URL.
             
 
 
@@ -75,12 +75,12 @@
       .col-9.col-lg-4.ps-lg-0(style="background-color: #12263F")
         .cajonp
           p.mb-0.text-white
-            b Ejemplo de hoja interna:
+            b Ejemplo de hoja externa:
         .code.pb-0.pt-1
-          code  &lt;head&gt; <br>&emsp; &lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;  <br> &lt;/head&gt; <br> &lt;body&gt; <br> &lt;/body&gt;
+          code  &lt;head&gt; <br>&emsp; &lt;link rel="stylesheet" type="text/css" href="estilo.css"&gt;  <br> &lt;/head&gt; <br> &lt;body&gt; <br> &lt;/body&gt;
         .cajonp.pb-0.pt-1
           p.mb-0.text-white
-            b Ejemplo de hoja sitio <em>web</em>:
+            b Ejemplo de hoja en sitio web:
         .code.pb-0.pt-1
           code  &lt;head&gt; <br>&emsp; &lt;link rel="stylesheet" type="text/css" href="https://www.estilo.css"&gt;  <br> &lt;/head&gt; <br> &lt;body&gt; <br> &lt;/body&gt;
           
@@ -88,26 +88,26 @@
     .tarjeta.fondo-slider.p-4.mb-4
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
-          .col-11.col-lg-5.mb-4.mb-md-0
-            p.mb-0 
+          .col-11.col-lg-5.mb-4.mb-lg-0
+            p 
               b Selectores de CSS, 
-              b-none se utilizan para determinar los elementos a los que se va a aplicar el estilo y se clasifican por nombre, por id de selector y por clase.
+              b-none se utilizan para determinar los elementos a los que se va a aplicar el estilo y se clasifican por nombre, por <em>id</em> de selector y por clase.
+            p.mb-0 Ejemplo de selector de nombre en donde se llama directamente al <em>tag</em> (h2) al que se debe aplicar el estilo:
               
           .col-10.col-lg-5
             figure
               img(src='@/assets/curso/tema2/img4.png', alt='imagen que acompaña', style="width: 500px;").m-auto
           
         .row.justify-content-center.align-items-center
-          .col-11.col-lg-5.mb-4.mb-md-0
-            p.mb-0 Ejemplo de selector por id en donde solo se aplica un elemento único qui el nombre del estilo va precedido por el carácter #.
-              
+          .col-11.col-lg-5.mb-4.mb-lg-0
+            p.mb-0 Ejemplo de selector por <em>id</em> en donde solo se aplica un elemento único. Aqui el nombre del estilo va precedido por el carácter #.
           .col-10.col-lg-5
             figure
               img(src='@/assets/curso/tema2/img5.png', alt='imagen que acompaña', style="width: 500px;").m-auto
           
         .row.justify-content-center.align-items-center
-          .col-11.col-lg-5.mb-4.mb-md-0
-            p.mb-0 Ejemplo de selector de clase, en este caso se pueden personalizar los estilos para aplicarlos a diferentes elementos que comparten alguna relación para ello se debe escribir un punto(.) delante del nombre de la clase:
+          .col-11.col-lg-5.mb-4.mb-lg-0
+            p.mb-0 Ejemplo de selector de clase, en este caso se pueden personalizar los estilos para aplicarlos a diferentes elementos que comparten alguna relación, para ello se debe escribir un punto (.) delante del nombre de la clase:
               
           .col-10.col-lg-5
             figure
@@ -129,9 +129,9 @@
               b-none.etiqueta CSS3 es la evolución de CSS y CSS2,
               b-none  esta nueva versión presenta como novedad mejoras que a grandes rasgos pueden dividirse en dos características:
               b-none.etiqueta la primera es la aplicación del concepto de módulos
-              b-none que permite aproximar la definición del estilo de un sitio web a partir de la programación; es decir, donde se puede hacer para ello la analogía a los patrones de diseño que implementan algún controlador, por lo que los módulos permiten definir contextos de aplicación de estilos e identificarlos en archivos diferentes (con extensión .less) que finalmente se integran en un archivo controlador
+              b-none que permite aproximar la definición del estilo de un sitio web a partir de la programación; es decir, donde se puede hacer para ello la analogía a los patrones de diseño que implementan algún controlador, por lo que los módulos permiten definir contextos de aplicación de estilos e identificarlos en archivos diferentes (con extensión .less) que finalmente se integran en un archivo controlador.
               b-none.etiqueta La segunda es la posibilidad de enriquecer los elementos que conforman
-              b-none las páginas directamente desde el estilo con animaciones, transiciones, layout con columnas, gradientes para modificar colores, transformaciones para rotar elementos, así como también el ingreso de uso de fuente de texto externas por medio de librerías.
+              b-none las páginas directamente desde el estilo con animaciones, transiciones, <em>layout</em> con columnas, gradientes para modificar colores, transformaciones para rotar elementos, así como también el ingreso de uso de fuentes de texto externas por medio de librerías.
             
           .col-10.col-lg-4
             figure
@@ -158,7 +158,7 @@
       .contenedor-text
         .row.mb-4.mb-lg-0
           .col-auto
-            p.mb-0 La estructura de CSS3 corresponde al conjunto de reglas recopiladas en un archivo; una regla a su vez corresponde a la utilización de algún tipo de selector como los que ya vimos en puntos anteriores y una o varias declaraciones separadas por punto y una (;), la declaración se conforma de una propiedad y un valor; dichas declaraciones se pueden escribir de manera directa en el tag de html deseado utilizando el atributo style y entre comillas la propiedad los dos puntos y su valor.
+            p.mb-0 La estructura de CSS3 corresponde al conjunto de reglas recopiladas en un archivo; una regla a su vez corresponde a la utilización de algún tipo de selector como los que ya vimos en puntos anteriores y una o varias declaraciones separadas por punto y coma (;), la declaración se conforma de una propiedad y un valor; dichas declaraciones se pueden escribir de manera directa en el <em>tag</em> de HTML deseado, utilizando el atributo <em>style</em> y entre comillas la propiedad, los dos puntos y su valor.
     
     p.mb-4 Ejemplo de estructura: 
 
@@ -172,7 +172,7 @@
     .row.justify-content-center.mb-4
       .col-lg-3.mb-4.mb-lg-0
         p.mb-0
-          b Con uso del atributo style:
+          b Con uso del atributo <em>style</em>:
       .col-10.col-lg-9
         .row
           .col-lg-10
@@ -192,7 +192,7 @@
           
       .col-lg-7
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Estos formularios se construyen de manera normal básicamente como lo vimos en los puntos anteriores, solo que en esta nueva versión se caracteriza por que se agregan nuevos tipos de datos (color, tel, email, date, url, time, month, number, week, datetime, range, search), nuevos controles (output) y nuevos atributos (placeholder, autofocus, min, required, max, step, pattern), para estos casos por recomendación de la W3c es necesario verificar su funcionamiento en los diferentes navegadores hasta el momento solo funcionan bien solo con el navegador Opera.
+          p.mb-0 Estos formularios se construyen básicamente como lo vimos en los puntos anteriores, solo que en esta nueva versión se caracteriza porque se agregan nuevos tipos de datos (color, <em>tel, email, date, url, time, month, number, week, datetime, range, search</em>), nuevos controles (<em>output</em>) y nuevos atributos (<em>placeholder, autofocus, min, required, max, step, pattern</em>), para estos casos por recomendación de la W3C es necesario verificar su funcionamiento en los diferentes navegadores; hasta el momento funcionan bien solo con el navegador Opera.
 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
