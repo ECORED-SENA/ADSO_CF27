@@ -116,8 +116,8 @@
               .row
                 .col-12
                   figure.mb-4
-                    img.m-auto(src='@/assets/curso/tema1/img6.png' alt='Imagen ambiental' style='')
-                  
+                    img.m-auto(src='@/assets/curso/tema1/img6-v2.png' alt='Imagen ambiental' style='')
+                
 
     
     
